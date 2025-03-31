@@ -24,4 +24,4 @@ jobs:
           sleep 30
       - name: Run Locust test
         run: |
-          locust --headless --users 10000 --spawn-rate 1000 --run-time 2m
+          locust --headless --users 10000 --spawn-rate 100 --run-time 2m
